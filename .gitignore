@@ -1,0 +1,19 @@
+# Ignore OpenLane run outputs and logs
+runs/
+*.log
+*.pnl.v
+*.nl.v
+
+# Ignore Python virtual environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore local PDK downloads (if stored inside the project folder)
+.volare/
+pdk/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db

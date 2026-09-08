@@ -1,0 +1,16 @@
+{
+    "DESIGN_NAME": "top_module",
+    "VERILOG_FILES": [
+        "dir::src/top_module.v",
+        "dir::src/i2c_master.v",
+        "dir::src/max30102_controller.v",
+        "dir::src/fifo_buffer.v",
+        "dir::src/uart_tx.v"
+    ],
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 100,
+    "SYNTH_STRATEGY": "AREA 0",
+    "FP_CORE_UTIL": 40,
+    "FP_ASPECT_RATIO": 1,
+    "FP_PIN_ORDER_CFG": "dir::pin_order.cfg"
+}
