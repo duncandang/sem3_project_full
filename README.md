@@ -120,7 +120,7 @@
    - Add `constraint.xdc`
 3. In the **Sources** pane, right-click `top_fpga.v` and choose **Set as Top**.
 
-### Step 3: Enable the `FPGA` Macro (`define FPGA`)
+### Step 3: Enable the `FPGA` Macro (`define FPGA` (add flag before top_module-v5.v))
 1. Open **Settings** $\rightarrow$ **Project Settings** $\rightarrow$ **Synthesis**.
 2. Scroll to **Verilog Options** $\rightarrow$ **Verilog Define**.
 3. Add `FPGA` to activate diagnostic LED mappings in ``ifdef FPGA` blocks.
