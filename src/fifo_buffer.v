@@ -4,7 +4,7 @@
 
 module fifo_buffer #(
     parameter DATA_WIDTH = 8,
-    parameter FIFO_DEPTH = 16 // Recommended baseline depth of 16
+    parameter FIFO_DEPTH = 32 // Recommended baseline depth of 16
 )(
     input wire clk,
     input wire rst_n,

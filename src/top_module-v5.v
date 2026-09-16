@@ -161,7 +161,7 @@ module top_module (
     // --- Instantiate FIFO Buffer ---
     fifo_buffer # (
         .DATA_WIDTH(8),
-        .FIFO_DEPTH(16)
+        .FIFO_DEPTH(32)
     ) buffer_inst (
         .clk(clk),
         .rst_n(rst_n),

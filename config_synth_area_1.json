@@ -1,0 +1,28 @@
+{
+    "DESIGN_NAME": "top_module",
+    "VERILOG_FILES": [
+        "dir::src/top_module-v5.v",
+        "dir::src/ppg_filter_v4.v",
+        "dir::src/spo2_calculator-v2.v",
+        "dir::src/peak_detector-v2.v",
+        "dir::src/i2c_master.v",
+        "dir::src/max30102_controller.v",
+        "dir::src/fifo_buffer.v",
+        "dir::src/uart_tx.v"
+    ],
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 100,
+    "FP_CORE_UTIL": 48,
+    "PL_TARGET_DENSITY_PCT": 55,
+    "FP_ASPECT_RATIO": 1,
+    "SYNTH_STRATEGY": "AREA 1",
+    "FP_PIN_ORDER_CFG": "dir::pin_order-v2.cfg",
+    "RUN_IRDROP_REPORT": true,
+    "RUN_ANTENNA_REPAIR": true,
+    "GRT_REPAIR_ANTENNAS": true,
+    "DIODE_INSERTION_STRATEGY": 4,
+    "PL_RESIZER_DESIGN_OPTIMIZATION": true,
+    "PL_RESIZER_TIMING_OPTIMIZATION": true,
+    "GLB_RESIZER_DESIGN_OPTIMIZATION": true,
+    "GLB_RESIZER_TIMING_OPTIMIZATION": true
+}
